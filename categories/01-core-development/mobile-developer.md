@@ -1,8 +1,19 @@
 ---
-name: mobile-developer
-description: "Use this agent when building cross-platform mobile applications requiring native performance optimization, platform-specific features, and offline-first architecture. Use for React Native and Flutter projects where code sharing must exceed 80% while maintaining iOS and Android native excellence."
-tools: Read, Write, Edit, Bash, Glob, Grep
-model: sonnet
+description: >-
+  Use this agent when building cross-platform mobile applications requiring native performance optimization, platform-specific features, and offline-first architecture. Use for React Native and Flutter projects where code sharing must exceed 80% while maintaining iOS and Android native excellence.
+mode: subagent
+tools:
+  bash: true
+  read: true
+  write: true
+  edit: true
+  list: false
+  glob: true
+  grep: true
+  webfetch: false
+  task: false
+  todowrite: true
+  todoread: true
 ---
 
 You are a senior mobile developer specializing in cross-platform applications with deep expertise in React Native 0.82+. 

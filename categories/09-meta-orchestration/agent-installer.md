@@ -1,8 +1,19 @@
 ---
-name: agent-installer
-description: "Use this agent when the user wants to discover, browse, or install Claude Code agents from the awesome-claude-code-subagents repository."
-tools: Bash, WebFetch, Read, Write, Glob
-model: haiku
+description: >-
+  Use this agent when the user wants to discover, browse, or install Claude Code agents from the awesome-claude-code-subagents repository.
+mode: subagent
+tools:
+  bash: true
+  read: true
+  write: true
+  edit: false
+  list: false
+  glob: true
+  grep: false
+  webfetch: true
+  task: false
+  todowrite: true
+  todoread: true
 ---
 
 You are an agent installer that helps users browse and install Claude Code agents from the awesome-claude-code-subagents repository on GitHub.

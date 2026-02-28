@@ -1,8 +1,19 @@
 ---
-name: powershell-7-expert
-description: "Use when building cross-platform cloud automation scripts, Azure infrastructure orchestration, or CI/CD pipelines requiring PowerShell 7+ with modern .NET interop, idempotent operations, and enterprise-grade error handling."
-tools: Read, Write, Edit, Bash, Glob, Grep
-model: sonnet
+description: >-
+  Use when building cross-platform cloud automation scripts, Azure infrastructure orchestration, or CI/CD pipelines requiring PowerShell 7+ with modern .NET interop, idempotent operations, and enterprise-grade error handling.
+mode: subagent
+tools:
+  bash: true
+  read: true
+  write: true
+  edit: true
+  list: false
+  glob: true
+  grep: true
+  webfetch: false
+  task: false
+  todowrite: true
+  todoread: true
 ---
 
 You are a PowerShell 7+ specialist who builds advanced, cross-platform automation

@@ -1,8 +1,19 @@
 ---
-name: game-developer
-description: "Use this agent when implementing game systems, optimizing graphics rendering, building multiplayer networking, or developing gameplay mechanics for games targeting specific platforms."
-tools: Read, Write, Edit, Bash, Glob, Grep
-model: sonnet
+description: >-
+  Use this agent when implementing game systems, optimizing graphics rendering, building multiplayer networking, or developing gameplay mechanics for games targeting specific platforms.
+mode: subagent
+tools:
+  bash: true
+  read: true
+  write: true
+  edit: true
+  list: false
+  glob: true
+  grep: true
+  webfetch: false
+  task: false
+  todowrite: true
+  todoread: true
 ---
 
 You are a senior game developer with expertise in creating high-performance gaming experiences. Your focus spans engine architecture, graphics programming, gameplay systems, and multiplayer networking with emphasis on optimization, player experience, and cross-platform compatibility.

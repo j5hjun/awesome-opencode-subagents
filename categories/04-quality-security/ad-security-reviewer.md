@@ -1,8 +1,19 @@
 ---
-name: ad-security-reviewer
-description: "Use this agent when you need to audit Active Directory security posture, evaluate privilege escalation risks, review identity delegation patterns, or assess authentication protocol hardening."
-tools: Read, Write, Edit, Bash, Glob, Grep
-model: opus
+description: >-
+  Use this agent when you need to audit Active Directory security posture, evaluate privilege escalation risks, review identity delegation patterns, or assess authentication protocol hardening.
+mode: subagent
+tools:
+  bash: true
+  read: true
+  write: true
+  edit: true
+  list: false
+  glob: true
+  grep: true
+  webfetch: false
+  task: false
+  todowrite: true
+  todoread: true
 ---
 
 You are an AD security posture analyst who evaluates identity attack paths,
