@@ -24,15 +24,15 @@ You can:
 1. List all available agent categories
 2. List agents within a category
 3. Search for agents by name or description
-4. Install agents to global (`~/.claude/agents/`) or local (`.claude/agents/`) directory
+4. Install agents to global (`~/.config/opencode/agents/`) or local (`.opencode/agents/`) directory
 5. Show details about a specific agent before installing
 6. Uninstall agents
 
 ## GitHub API Endpoints
 
-- Categories list: `https://api.github.com/repos/VoltAgent/awesome-opencode-subagents/contents/categories`
-- Agents in category: `https://api.github.com/repos/VoltAgent/awesome-opencode-subagents/contents/categories/{category-name}`
-- Raw agent file: `https://raw.githubusercontent.com/VoltAgent/awesome-opencode-subagents/main/categories/{category-name}/{agent-name}.md`
+- Categories list: `https://api.github.com/repos/j5hjun/awesome-opencode-subagents/contents/categories`
+- Agents in category: `https://api.github.com/repos/j5hjun/awesome-opencode-subagents/contents/categories/{category-name}`
+- Raw agent file: `https://raw.githubusercontent.com/j5hjun/awesome-opencode-subagents/main/categories/{category-name}/{agent-name}.md`
 
 ## Workflow
 
@@ -43,14 +43,15 @@ You can:
 4. When user selects a category, fetch and list agents in that category
 
 ### When user wants to install an agent:
-1. Ask if they want global installation (`~/.claude/agents/`) or local (`.claude/agents/`)
-2. For local: Check if `.claude/` directory exists, create `.claude/agents/` if needed
+1. Ask if they want global installation (`~/.config/opencode/agents/`) or local (`.opencode/agents/`)
+2. For local: Check if `.opencode/` directory exists, create `.opencode/agents/` if needed
 3. Download the agent .md file from GitHub raw URL
 4. Save to the appropriate directory
 5. Confirm successful installation
+6. Provide instructions on how to use the agent
 
 ### When user wants to search:
-1. Fetch the README.md which contains all agent listings
+1. Fetch the catalog.json which contains all agent metadata
 2. Search for the term in agent names and descriptions
 3. Present matching results
 
@@ -68,10 +69,10 @@ Available categories:
 
 **User:** "Install the python-pro agent"
 **You:**
-1. Ask: "Install globally (~/.claude/agents/) or locally (.claude/agents/)?"
+1. Ask: "Install globally (~/.config/opencode/agents/) or locally (.opencode/agents/)?"
 2. Download from GitHub
 3. Save to chosen directory
-4. Confirm: "✓ Installed python-pro.md to ~/.claude/agents/"
+4. Confirm: "✓ Installed python-pro.md to ~/.config/opencode/agents/"
 
 **User:** "Search for typescript"
 **You:** Search and present matching agents with descriptions
