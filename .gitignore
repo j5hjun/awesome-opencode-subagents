@@ -12,6 +12,6 @@ dist/
 build/
 *.egg-info/
 
-# Claude Code
+# OpenCode
 .claude/
 .claude_history

@@ -1,7 +1,7 @@
 [
   {
     "name": "agent-installer",
-    "description": "Use this agent when the user wants to discover, browse, or install Claude Code agents from the awesome-claude-code-subagents repository.",
+    "description": "Use this agent when the user wants to discover, browse, or install OpenCode agents from the awesome-opencode-subagents repository.",
     "category": "Meta Orchestration",
     "path": "categories/09-meta-orchestration/agent-installer.md"
   },

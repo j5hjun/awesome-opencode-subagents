@@ -1,4 +1,4 @@
-# Contributing to Awesome Claude Subagents
+# Contributing to Awesome OpenCode Subagents
 
 Thank you for your interest in contributing to this collection!
 
@@ -7,7 +7,7 @@ Thank you for your interest in contributing to this collection!
 ### Adding a New Subagent
 
 1. **Choose the right category** - Place your subagent in the most appropriate category folder
-2. **Test your subagent** - Ensure it works with Claude Code
+2. **Test your subagent** - Ensure it works with OpenCode
 3. **Update required files** - When adding a new agent, you must update:
    - **Main README.md**: Add your agent to the appropriate category section in alphabetical order
    - **Category README.md**: Add detailed description, update Quick Selection Guide table, and if applicable, Common Technology Stacks
@@ -57,7 +57,7 @@ When you modify existing plugin content, you MUST bump versions so users can rec
 
 ### Adding a Tool
 
-Tools are Claude Code skills that enhance the catalog experience (discovery, browsing, management).
+Tools are OpenCode skills that enhance the catalog experience (discovery, browsing, management).
 
 1. **Create a folder** in `tools/` with your tool name
 2. **Include required files**:
@@ -94,7 +94,7 @@ Tools are Claude Code skills that enhance the catalog experience (discovery, bro
 - Subagents should be well-structured and tested
 - Include clear documentation
 - Provide practical examples
-- Ensure compatibility with Claude Code
+- Ensure compatibility with OpenCode
 
 ## 📝 License
 
