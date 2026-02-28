@@ -13,5 +13,5 @@ build/
 *.egg-info/
 
 # OpenCode
-.claude/
-.claude_history
+.opencode/
+.opencode_history
